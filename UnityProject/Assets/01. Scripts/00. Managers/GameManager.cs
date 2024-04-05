@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance;
+    public static GameManager Instance { get; private set; }
 
     private InputManager _input;
 
@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject); Instance = this;
+        DontDestroyOnLoad(gameObject);
     }
 
     void Update()

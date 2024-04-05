@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{53964517-B007-D814-F332-B7C8DF01B062}</ProjectGuid>
+    <ProjectGuid>{5B580621-09B4-68CB-B5F4-5B9DD210A60F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,6 +60,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.23f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\01. Scripts\01. Controllers\StoneController.cs" />
     <Compile Include="Assets\01. Scripts\00. Managers\GameManager.cs" />
     <Compile Include="Assets\01. Scripts\00. Managers\InputManager.cs" />
   </ItemGroup>
