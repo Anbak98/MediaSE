@@ -354,6 +354,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/01. Scripts/00. Managers/GameManager.cs"
 "Assets/01. Scripts/00. Managers/InputManager.cs"
+"Assets/01. Scripts/00. Managers/StoneManager.cs"
 "Assets/01. Scripts/01. Controllers/StoneController.cs"
 -langversion:9.0
 
